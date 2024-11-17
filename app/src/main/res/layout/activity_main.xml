@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_background"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/semi_transparent_gray" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Cinema Management\nApp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="69dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/enter_schedules"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/transparent_button"
+            android:text="Cinema Schedule"
+            android:textColor="#FFFFFF"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/enter_movies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/transparent_button"
+            android:text="Movies"
+            android:textColor="#FFFFFF"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/enter_rooms"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/transparent_button"
+            android:text="Cinema Rooms"
+            android:textColor="#FFFFFF"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+</RelativeLayout>

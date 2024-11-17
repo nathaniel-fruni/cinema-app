@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/other_background"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select movie"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:typeface="monospace"/>
+
+        <Spinner
+            android:id="@+id/movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select room"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:typeface="monospace"/>
+
+        <Spinner
+            android:id="@+id/room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select format"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:typeface="monospace"/>
+
+        <Spinner
+            android:id="@+id/format"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select date"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:typeface="monospace"/>
+
+        <Button
+            android:id="@+id/date_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent_button"
+            android:text="Choose date"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/displayedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select time"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:typeface="monospace"/>
+
+        <Button
+            android:id="@+id/time_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent_button"
+            android:text="Choose time"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/displayedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:typeface="monospace"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/transparent_button"
+            android:text="Edit"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent_button"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+</ScrollView>

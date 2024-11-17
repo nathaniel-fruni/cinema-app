@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/other_background"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie title"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"/>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Movie title"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Picture name"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"/>
+
+    <EditText
+        android:id="@+id/picture_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Picture name"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Director"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"/>
+
+    <EditText
+        android:id="@+id/director"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Director"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Release year"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"/>
+
+    <EditText
+        android:id="@+id/release_year"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Release year"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"/>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Description"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"
+        android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Length in minutes"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:typeface="monospace"/>
+
+        <EditText
+            android:id="@+id/length"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Length in minutes"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:typeface="monospace"
+            android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select genre"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"/>
+
+    <Spinner
+        android:id="@+id/genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select language"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"/>
+
+    <Spinner
+        android:id="@+id/language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select age"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace"/>
+
+    <Spinner
+        android:id="@+id/min_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/transparent_button"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transparent_button"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="monospace" />
+</LinearLayout>
+
+</ScrollView>
